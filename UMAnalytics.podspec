@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.framework  = 'SomeFramework'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
 
-  s.library   = 'z'
+  s.library   = 'z', 'MobClickLibrary'
 
   # s.libraries = 'iconv', 'xml2'
   # s.requires_arc = true

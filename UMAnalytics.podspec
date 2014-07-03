@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
   # s.framework  = 'SomeFramework'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  s.vendored_libraries = 'libMobClickLibrary.a'
+  s.vendored_libraries = 'UMAnalytics/libMobClickLibrary.a'
   s.library   = 'z', 'MobClickLibrary'
   s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/UMAnalytics"' }
   # s.libraries = 'iconv', 'xml2'

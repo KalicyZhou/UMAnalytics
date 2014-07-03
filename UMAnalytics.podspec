@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
   s.vendored_libraries = 'libMobClickLibrary.a'
   s.library   = 'z', 'MobClickLibrary'
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/UMAnalytics/Release$(EFFECTIVE_PLATFORM_NAME)"' }
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/UMAnalytics"' }
   # s.libraries = 'iconv', 'xml2'
   # s.requires_arc = true
   # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }

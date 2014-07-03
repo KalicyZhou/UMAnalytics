@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.framework  = 'SomeFramework'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
 
-  s.library   = 'libz'
+  s.library   = 'z'
 
   # s.libraries = 'iconv', 'xml2'
   # s.requires_arc = true

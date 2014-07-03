@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "liyoro" => "liyoro.li@gmail.com" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/liyoro/UMAnalytics.git", :commit => "7e7807281b293804d6fd0c012b67bc7365439cb1"}
-  s.source_files  = 'UMAnalytics/MobClick.{h}', 'UMAnalytics/libMobClickLibrary.{a}'
+  s.source       = { :git => "git@github.com:KalicyZhou/UMAnalytics.git"}
+  s.source_files  = 'UMAnalytics/MobClick.{h}'
 
   # s.exclude_files = 'Classes/Exclude'
   # s.public_header_files = 'Classes/**/*.h'

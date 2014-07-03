@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
   # s.framework  = 'SomeFramework'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
-
+  s.vendored_libraries = 'libMobClickLibrary.a'
   s.library   = 'z', 'MobClickLibrary'
 
   # s.libraries = 'iconv', 'xml2'

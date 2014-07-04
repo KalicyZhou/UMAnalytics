@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "liyoro" => "liyoro.li@gmail.com" }
   s.platform     = :ios
   s.source       = { :git => "git@github.com:KalicyZhou/UMAnalytics.git"}
-  s.source_files  = 'UMAnalytics/MobClick.{h}'
+  s.source_files  = 'UMAnalytics/*.{h,m}'
 
   # s.exclude_files = 'Classes/Exclude'
   # s.public_header_files = 'Classes/**/*.h'

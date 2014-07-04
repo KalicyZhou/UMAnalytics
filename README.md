@@ -4,4 +4,4 @@ UMAnalytics
 友盟统计
 
 
-pod 'UMAnalytics', '~> 2.2.1'
+pod 'UMAnalytics', :git => 'git@github.com:KalicyZhou/UMAnalytics.git'

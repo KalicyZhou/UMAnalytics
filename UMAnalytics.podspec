@@ -1,11 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "UMAnalytics"
-  s.version      = "2.2.1"
+  s.version      = "3.4.5"
   s.summary      = "友盟统计sdk."
-  s.description  = "友盟统计sdk，UMAnalytics_Sdk_2.2.1.OpenUDID"
-  s.homepage     = "https://github.com/liyoro/UMAnalytics"
+  s.description  = "友盟统计sdk，UMAnalytics_Sdk_3.4.5"
   s.license      = 'MIT'
-  s.author       = { "liyoro" => "liyoro.li@gmail.com" }
+  s.author       = { "kalicy" => "kalicy@icloud.com" }
   s.platform     = :ios
   s.source       = { :git => "git@github.com:KalicyZhou/UMAnalytics.git"}
   s.source_files  = 'UMAnalytics/*.{h,m}'

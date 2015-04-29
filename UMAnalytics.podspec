@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = "UMAnalytics"
-  s.version      = "3.4.5"
+  s.version      = "3.4.7"
   s.summary      = "友盟统计sdk."
-  s.description  = "友盟统计sdk，UMAnalytics_Sdk_3.4.5"
+  s.description  = "友盟统计sdk，UMAnalytics_Sdk_3.4.7"
   s.license      = 'MIT'
   s.author       = { "kalicy" => "kalicy@icloud.com" }
   s.platform     = :ios
